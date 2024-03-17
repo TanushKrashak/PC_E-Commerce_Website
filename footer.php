@@ -7,12 +7,12 @@
 					<div class="row">
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
-								<h3 class="footer-title">About Us</h3>
-								<p>This is my Small Database Management System mini project</p>
+								<h3 class="footer-title" style="margin-bottom: 5px">About Us</h3>
+								<p>Pc Parts Website Made by humans (hopefully)</p>
 								<ul class="footer-links">
-									<li><a href="#"><i class="fa fa-map-marker"></i>Bangalore ,Kumbalagodu</a></li>
-									<li><a href="#"><i class="fa fa-phone"></i>+91-9535688928</a></li>
-									<li><a href="#"><i class="fa fa-envelope-o"></i>puneethreddy951@gmail.com</a></li>
+									<li><a href="#"><i class="fa fa-map-marker"></i>Mumbai, India</a></li>
+									<li><a href="#"><i class="fa fa-phone"></i>+91-1234567890</a></li>
+									<li><a href="#"><i class="fa fa-envelope-o"></i>tankrashak38816@gmail.com</a></li>
 								</ul>
 							</div>
 						</div>
@@ -27,20 +27,20 @@
 							</ul>
 							<span class="copyright">
 								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">PuneethRdddyHC</a>
+								Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
 							<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 							</span>
 						</div>
 
 						<div class="col-md-3 col-xs-6">
 							<div class="footer">
-								<h3 class="footer-title">Categories</h3>
+								<h3 class="footer-title" style="margin-bottom: 10px">Categories</h3>
 								<ul class="footer-links">
-									<li><a href="#">Mobiles</a></li>
-									<li><a href="#">Men</a></li>
-									<li><a href="#">Women</a></li>
-									<li><a href="#">Kids</a></li>
-									<li><a href="#">Accessories</a></li>
+									<li><a href="#">CPU</a></li>
+									<li><a href="#">GPU</a></li>
+									<li><a href="#">Motherboard</a></li>
+									<li><a href="#">RAM</a></li>
+									<li><a href="#">SSD</a></li>
 								</ul>
 							</div>
 						</div>
