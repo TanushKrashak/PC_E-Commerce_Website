@@ -29,7 +29,6 @@
 
 12. first register and then login
 
-13. admin login details  Email=admin@gmail.com or username = admin and Password=123456789.
 
 ##  If you like my project hit a star button
 
