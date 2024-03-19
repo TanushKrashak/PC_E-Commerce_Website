@@ -14,7 +14,7 @@ $path="../product_images/$picture";
 
 if(file_exists($path)==true)
 {
-  unlink($path);
+    unlink($path);
 }
 else
 {}
