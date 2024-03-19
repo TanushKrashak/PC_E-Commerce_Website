@@ -1,4 +1,4 @@
-<?php
+	<?php
 session_start();
 
 ?>
@@ -122,9 +122,7 @@ session_start();
 			<div id="top-header">
 				<div class="container">
 					<ul class="header-links pull-left">
-						<li><a href="#"><i class="fa fa-phone"></i> Saurav Number</a></li>
-						<li><a href="#"><i class="fa fa-envelope-o"></i> bro@gmail.com</a></li>
-						<li><a href="#"><i class="fa fa-map-marker"></i>Mumbai</a></li>
+						
 					</ul>
 					<ul class="header-links pull-right">
 						<li><a href="#"><i class="fa fa-inr"></i> INR</a></li>
@@ -180,7 +178,7 @@ session_start();
 							<div class="header-logo">
 								<a href="#" class="logo">
 								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
-                                        Online Shop
+                                        4san
                                     </font>
 									
 								</a>
@@ -193,11 +191,9 @@ session_start();
 							<div class="header-search">
 								<form>
 									<select class="input-select">
-										<option value="0">All Categories</option>
-										<option value="1">Men</option>
-										<option value="1">Women </option>
+										
 									</select>
-									<input class="input" id="search" type="text" placeholder="Search here">
+									<input class="input" id="search" type="text" placeholder="Search PC parts here">
 									<button type="submit" id="search_btn" class="search-btn">Search</button>
 								</form>
 							</div>
