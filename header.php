@@ -190,9 +190,6 @@ session_start();
 						<div class="col-md-6">
 							<div class="header-search">
 								<form>
-									<select class="input-select">
-										
-									</select>
 									<input class="input" id="search" type="text" placeholder="Search PC parts here">
 									<button type="submit" id="search_btn" class="search-btn">Search</button>
 								</form>
