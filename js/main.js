@@ -107,67 +107,82 @@
 	/////////////////////////////////////////
 	
 	// Input number
-	$('.input-number').each(function() {
-		var $this = $(this),
-		$input = $this.find('input[type="number"]'),
-		up = $this.find('.qty-up'),
-		down = $this.find('.qty-down');
+$('.input-number').each(function() {
+    var $this = $(this),
+        $input = $this.find('input[type="number"]'),
+        up = $this.find('.qty-up'),
+        down = $this.find('.qty-down');
 
-		down.on('click', function () {
-			var value = parseInt($input.val()) - 1;
-			value = value < 1 ? 1 : value;
-			$input.val(value);
-			$input.change();
-			updatePriceSlider($this , value)
-		})
+    down.on('click', function() {
+        var value = parseInt($input.val()) - 1;
+        value = value < 1 ? 1 : value;
+        $input.val(value);
+        $input.change();
+        updatePriceFilter(); // Call function to update price filter
+    });
 
-		up.on('click', function () {
-			var value = parseInt($input.val()) + 1;
-			$input.val(value);
-			$input.change();
-			updatePriceSlider($this , value)
-		})
-	});
+    up.on('click', function() {
+        var value = parseInt($input.val()) + 1;
+        $input.val(value);
+        $input.change();
+        updatePriceFilter(); // Call function to update price filter
+    });
+});
 
-	var priceInputMax = document.getElementById('price-max'),
-			priceInputMin = document.getElementById('price-min');
+var priceInputMax = document.getElementById('price-max'),
+    priceInputMin = document.getElementById('price-min');
 
-	priceInputMax.addEventListener('change', function(){
-		updatePriceSlider($(this).parent() , this.value)
-	});
+priceInputMax.addEventListener('change', function() {
+    updatePriceFilter(); // Call function to update price filter
+});
 
-	priceInputMin.addEventListener('change', function(){
-		updatePriceSlider($(this).parent() , this.value)
-	});
+priceInputMin.addEventListener('change', function() {
+    updatePriceFilter(); // Call function to update price filter
+});
 
-	function updatePriceSlider(elem , value) {
-		if ( elem.hasClass('price-min') ) {
-			console.log('min')
-			priceSlider.noUiSlider.set([value, null]);
-		} else if ( elem.hasClass('price-max')) {
-			console.log('max')
-			priceSlider.noUiSlider.set([null, value]);
-		}
-	}
+function updatePriceFilter() {
+    // Get minimum and maximum price values
+    var minPrice = $('#price-min').val();
+    var maxPrice = $('#price-max').val();
 
-	// Price Slider
-	var priceSlider = document.getElementById('price-slider');
-	if (priceSlider) {
-		noUiSlider.create(priceSlider, {
-			start: [1, 999],
-			connect: true,
-			step: 1,
-			range: {
-				'min': 1,
-				'max': 999
-			}
-		});
+    // Perform AJAX request to fetch products based on price range
+    $.ajax({
+        url: 'fetch_products.php', // Update the URL to your PHP backend script
+        method: 'POST',
+        data: {
+            minPrice: minPrice,
+            maxPrice: maxPrice
+        },
+        success: function(response) {
+            // Update the product listing with the filtered products
+            $('#product-list').html(response);
+        },
+        error: function(xhr, status, error) {
+            // Handle errors if any
+            console.error(xhr.responseText);
+        }
+    });
+}
 
-		priceSlider.noUiSlider.on('update', function( values, handle ) {
-			var value = values[handle];
-			handle ? priceInputMax.value = value : priceInputMin.value = value
-		});
-	}
+// Initialize price slider
+var priceSlider = document.getElementById('price-slider');
+if (priceSlider) {
+    noUiSlider.create(priceSlider, {
+        start: [1, 999],
+        connect: true,
+        step: 1,
+        range: {
+            'min': 1,
+            'max': 999
+        }
+    });
+
+    priceSlider.noUiSlider.on('update', function(values, handle) {
+        var value = values[handle];
+        handle ? priceInputMax.value = value : priceInputMin.value = value;
+        updatePriceFilter(); // Call function to update price filter
+    });
+}
 
 	
 

@@ -71,8 +71,7 @@ include 'header.php';
 						<!-- /aside Widget -->
 
 						<!-- aside Widget -->
-						<div id="get_brand">
-				        </div>
+						
 						<!-- /aside Widget -->
 
 						<!-- aside Widget -->

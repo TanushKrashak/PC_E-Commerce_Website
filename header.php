@@ -177,8 +177,9 @@ session_start();
 						<div class="col-md-3">
 							<div class="header-logo">
 								<a href="#" class="logo">
+									<img src="./product_images/logo.png" alt="4san" style="width: 100px; height:75px">
 								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
-                                        4san
+                                        
                                     </font>
 									
 								</a>
@@ -191,6 +192,7 @@ session_start();
 							<div class="header-search">
 								<form>
 									<input class="input" id="search" type="text" placeholder="Search PC parts here">
+									
 									<button type="submit" id="search_btn" class="search-btn">Search</button>
 								</form>
 							</div>
