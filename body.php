@@ -350,11 +350,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product01.png" alt="">
+										<img src="./product_images/case1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">Case</p>
+										<h3 class="product-name"><a href="#">Corsair</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -363,11 +363,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product02.png" alt="">
+										<img src="./product_images/cooler1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">Cooler</p>
+										<h3 class="product-name"><a href="#">DeepCool</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -376,11 +376,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product03.png" alt="">
+										<img src="./product_images/ram1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">RAM</p>
+										<h3 class="product-name"><a href="#">DDR4</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -402,11 +402,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product04.png" alt="">
+										<img src="./product_images/case1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">Case</p>
+										<h3 class="product-name"><a href="#">Corsair</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -415,11 +415,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product05.png" alt="">
+										<img src="./product_images/cooler1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">Cooler</p>
+										<h3 class="product-name"><a href="#">DeepCool</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -428,11 +428,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product06.png" alt="">
+										<img src="./product_images/ram1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">RAM</p>
+										<h3 class="product-name"><a href="#">DDR4</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -443,11 +443,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product07.png" alt="">
+										<img src="./product_images/mobo1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">Motherboard</p>
+										<h3 class="product-name"><a href="#">Asus</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -456,11 +456,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product08.png" alt="">
+										<img src="./product_images/psu1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">PSU</p>
+										<h3 class="product-name"><a href="#">DeepCool</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -469,11 +469,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product09.png" alt="">
+										<img src="./product_images/ssd1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">Storage</p>
+										<h3 class="product-name"><a href="#">SSD</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -499,11 +499,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product01.png" alt="">
+										<img src="./product_images/mobo1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">Motherboard</p>
+										<h3 class="product-name"><a href="#">Asus</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -512,11 +512,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product02.png" alt="">
+										<img src="./product_images/psu1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">PSU</p>
+										<h3 class="product-name"><a href="#">DeepCool</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -525,11 +525,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product03.png" alt="">
+										<img src="./product_images/ssd1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">Storage</p>
+										<h3 class="product-name"><a href="#">SSD</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -540,25 +540,11 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product04.png" alt="">
+										<img src="./product_images/case1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
-										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
-									</div>
-								</div>
-								<!-- /product widget -->
-								
-
-								<!-- product widget -->
-								<div class="product-widget">
-									<div class="product-img">
-										<img src="./img/product05.png" alt="">
-									</div>
-									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">Case</p>
+										<h3 class="product-name"><a href="#">Corsair</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
@@ -567,11 +553,24 @@
 								<!-- product widget -->
 								<div class="product-widget">
 									<div class="product-img">
-										<img src="./img/product06.png" alt="">
+										<img src="./product_images/cooler1.png" alt="">
 									</div>
 									<div class="product-body">
-										<p class="product-category">Category</p>
-										<h3 class="product-name"><a href="#">product name goes here</a></h3>
+										<p class="product-category">Cooler</p>
+										<h3 class="product-name"><a href="#">DeepCool</a></h3>
+										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
+									</div>
+								</div>
+								<!-- /product widget -->
+
+								<!-- product widget -->
+								<div class="product-widget">
+									<div class="product-img">
+										<img src="./product_images/ram1.png" alt="">
+									</div>
+									<div class="product-body">
+										<p class="product-category">RAM</p>
+										<h3 class="product-name"><a href="#">DDR4</a></h3>
 										<h4 class="product-price">$980.00 <del class="product-old-price">   </del></h4>
 									</div>
 								</div>
