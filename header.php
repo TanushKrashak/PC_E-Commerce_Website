@@ -175,16 +175,20 @@ session_start();
 						<!-- LOGO -->
 						<div class="col-md-3">
 							<div class="header-logo">
-								<a href="#" class="logo">
+								<a href="index.php" class="logo222">
 									<img src="./product_images/logo.png" alt="4san" style="width: 100px; height:75px">
-								<font style="font-style:normal; font-size: 33px;color: aliceblue;font-family: serif">
-                                        
-                                    </font>
 									
 								</a>
 							</div>
 						</div>
 						<!-- /LOGO -->
+
+						<!-- Shop Btn -->
+						<div style="position:absolute; margin-left: 175px; margin-top: 30px">
+								<a href="store.php">
+									<p style="color:#ffffff;"> SHOP </p>
+								</a>
+						</div>
 
 						<!-- SEARCH BAR -->
 						<div class="col-md-6">
