@@ -3,49 +3,49 @@ session_start();
 $ip_add = getenv("REMOTE_ADDR");
 include "db.php";
 
-if(isset($_POST["categoryhome"])){
-	$category_query = "SELECT * FROM categories WHERE cat_id!=1";
+// if(isset($_POST["categoryhome"])){
+// 	$category_query = "SELECT * FROM categories WHERE cat_id!=1";
     
-	$run_query = mysqli_query($con,$category_query) or die(mysqli_error($con));
-	echo "
+// 	$run_query = mysqli_query($con,$category_query) or die(mysqli_error($con));
+// 	echo "
 		
             
             
-				<!-- responsive-nav -->
-				<div id='responsive-nav'>
-					<!-- NAV -->
-					<ul class='main-nav nav navbar-nav'>
-                    <li class='active'><a href='index.php'>Home</a></li>
-                    <li><a href='store.php'>CPU</a></li>
-	";
-	if(mysqli_num_rows($run_query) > 0){
-		while($row = mysqli_fetch_array($run_query)){
-			$cid = $row["cat_id"];
-			$cat_name = $row["cat_title"];
+// 				<!-- responsive-nav -->
+// 				<div id='responsive-nav'>
+// 					<!-- NAV -->
+// 					<ul class='main-nav nav navbar-nav'>
+//                     <li class='active'><a href='index.php'>SSD</a></li>
+//                     <li><a href='store.php'>CPU</a></li>
+// 	";
+// 	if(mysqli_num_rows($run_query) > 0){
+// 		while($row = mysqli_fetch_array($run_query)){
+// 			$cid = $row["cat_id"];
+// 			$cat_name = $row["cat_title"];
             
-            $sql = "SELECT COUNT(*) AS count_items FROM products,categories WHERE product_cat=cat_id";
-            $query = mysqli_query($con,$sql);
-            $row = mysqli_fetch_array($query);
-            $count=$row["count_items"];
+//             $sql = "SELECT COUNT(*) AS count_items FROM products,categories WHERE product_cat=cat_id";
+//             $query = mysqli_query($con,$sql);
+//             $row = mysqli_fetch_array($query);
+//             $count=$row["count_items"];
             
             
             
-			echo "
+// 			echo "
 					
                     
-                               <li class='categoryhome' cid='$cid'><a href='store.php'>$cat_name</a></li>
+//                                <li class='categoryhome' cid='$cid'><a href='store.php'>$cat_name</a></li>
                     
-			";
-		}
+// 			";
+// 		}
         
-		echo "</ul>
-					<!-- /NAV -->
-				</div>
-				<!-- /responsive-nav -->
+// 		echo "</ul>
+// 					<!-- /NAV -->
+// 				</div>
+// 				<!-- /responsive-nav -->
                
-			";
-	}
-}
+// 			";
+// 	}
+// }
 
 
 if(isset($_POST["page"])){
