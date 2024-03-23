@@ -5,7 +5,43 @@
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
    
+	<!-- Wrapper for slides -->
+    <div class="carousel-inner">
 
+      <div class="item active">
+        <img src="img/banner5.jpg" alt="Los Angeles" style="width:100%; height:500px">
+        
+      </div>
+
+      <div class="item">
+        <img src="img/banner2.jpg" style="width:100%; height:500px">
+        
+      </div>
+    
+      <div class="item">
+        <img src="img/banner4.jpg" alt="New York" style="width:100%; height:500px">
+        
+      </div>
+      <div class="item">
+        <img src="img/banner1.jpg" alt="New York" style="width:100%; height:500px">
+        
+      </div>
+      <div class="item">
+        <img src="img/banner3.jpg" alt="New York" style="width:100%; height:500px">
+        
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control _26sdfg" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only" >Previous</span>
+    </a>
+    <a class="right carousel-control _26sdfg" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
     <!-- Wrapper for slides -->
     
 
@@ -29,10 +65,10 @@
 					<div class="col-md-4 col-xs-6">
 						<a href="product.php?p=78"><div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop01.png" alt="">
+								<img src="./product_images/CPU1.png" alt="" style="height: 250px">
 							</div>
 							<div class="shop-body">
-								<h3>Laptop<br>Collection</h3>
+								<h3>CPU<br>Collection</h3>
 								<a href="" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
@@ -43,10 +79,10 @@
 					<div class="col-md-4 col-xs-6">
 						<a href="product.php?p=72"><div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop03.png" alt="">
+								<img src="./product_images/GPU1.png" alt="" style="height: 250px">
 							</div>
 							<div class="shop-body">
-								<h3>Accessories<br>Collection</h3>
+								<h3>GPU<br>Collection</h3>
 								<a href="" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
 						</div></a>
@@ -57,10 +93,10 @@
 					<div class="col-md-4 col-xs-6">
 						<a href="product.php?p=79"><div class="shop">
 							<div class="shop-img">
-								<img src="./img/shop02.png" alt="">
+								<img src="./product_images/Mobo1.png" alt="" style="height: 250px">
 							</div>
 							<div class="shop-body">
-								<h3>Graphics<br>Collection</h3>
+								<h3>Motherboard<br>Collection</h3>
 								<a href="" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
 							</div>
                             </div></a>
